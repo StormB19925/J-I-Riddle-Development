@@ -70,10 +70,18 @@ public class MaterialShaderUpdater : EditorWindow
                     }
                     else
                     {
-                        newMat = mat;
+                        // For materials in Assets, we can create a new instance to be safe,
+                        // or modify directly if that's preferred.
+                        // Creating a new instance avoids changing a shared material used by other objects unintentionally.
+                        newMat = new Material(mat);
+                        string newPath = Path.Combine(newMaterialFolder, mat.name + ".mat");
+                        newPath = AssetDatabase.GenerateUniqueAssetPath(newPath);
+                        AssetDatabase.CreateAsset(newMat, newPath);
                     }
 
                     newMat.shader = newShader;
+                    // Copy properties from the old material to the new one
+                    newMat.CopyPropertiesFromMaterial(mat);
                     newMaterials[i] = newMat;
                     EditorUtility.SetDirty(newMat);
                     updated = true;

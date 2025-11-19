@@ -22,4 +22,5 @@
   <uses-feature android:name="oculus.software.handtracking" android:required="true" />
   <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
   <uses-feature android:name="com.oculus.feature.PASSTHROUGH" android:required="false" />
+  <uses-permission android:name="com.oculus.permission.BOUNDARY_VISIBILITY" />
 </manifest>
