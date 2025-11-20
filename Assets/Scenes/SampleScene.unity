@@ -1067,6 +1067,10 @@ PrefabInstance:
       propertyPath: useFixedUpdateForTracking
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4368188725759792322, guid: de3371e482cd08643b6a30171d38f398, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7481588965295159401, guid: de3371e482cd08643b6a30171d38f398, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1175,7 +1179,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1219,7 +1223,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1307,15 +1311,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5463558150910779142, guid: 644808f48f5e6b54b85b3d215aef33c3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.419
       objectReference: {fileID: 0}
     - target: {fileID: 5463558150910779142, guid: 644808f48f5e6b54b85b3d215aef33c3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.068
+      value: 0.97
       objectReference: {fileID: 0}
     - target: {fileID: 5463558150910779142, guid: 644808f48f5e6b54b85b3d215aef33c3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.33
+      value: 0.443
       objectReference: {fileID: 0}
     - target: {fileID: 5463558150910779142, guid: 644808f48f5e6b54b85b3d215aef33c3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1349,6 +1353,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 55ce19d223257a84db0c7e71c42969d1, type: 2}
+    - target: {fileID: 7907948589338382430, guid: 644808f48f5e6b54b85b3d215aef33c3, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8571562220386821908, guid: 644808f48f5e6b54b85b3d215aef33c3, type: 3}
       propertyPath: m_Name
       value: '[BuildingBlock] HandGrab Cube'
@@ -1470,6 +1478,10 @@ PrefabInstance:
     - target: {fileID: 3778718785725472487, guid: 89422f1519b6ad848a5e0e58a09703ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590207716081537967, guid: 89422f1519b6ad848a5e0e58a09703ec, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6828379142016677794, guid: 89422f1519b6ad848a5e0e58a09703ec, type: 3}
       propertyPath: m_Name

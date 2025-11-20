@@ -28,6 +28,8 @@ TagManager:
   - QDSUITextInputField
   - SamplesInfoPanel
   - QDSUIToggleCheckboxRadio
+  - Grabbable
+  - Armature
   layers:
   - Default
   - TransparentFX
