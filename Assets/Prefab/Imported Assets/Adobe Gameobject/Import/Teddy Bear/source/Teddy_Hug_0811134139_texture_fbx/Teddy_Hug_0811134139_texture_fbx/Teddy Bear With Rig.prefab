@@ -114,22 +114,22 @@ ConfigurableJoint:
     spring: 0
     damper: 0
   m_LowAngularXLimit:
-    limit: 0
+    limit: -20
     bounciness: 0
     contactDistance: 0
   m_HighAngularXLimit:
-    limit: 0
+    limit: 70
     bounciness: 0
     contactDistance: 0
   m_AngularYZLimitSpring:
     spring: 0
     damper: 0
   m_AngularYLimit:
-    limit: 0
+    limit: 40
     bounciness: 0
     contactDistance: 0
   m_AngularZLimit:
-    limit: 0
+    limit: 40
     bounciness: 0
     contactDistance: 0
   m_TargetPosition: {x: 0, y: 0, z: 0}
@@ -2059,6 +2059,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0753b75270ea5344991400452e19da9a, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -8575808041647090537, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       propertyPath: m_TagString
       value: Armature
@@ -2080,6 +2084,18 @@ PrefabInstance:
       value: Armature
       objectReference: {fileID: 0}
     - target: {fileID: -5961296796565770529, guid: 0753b75270ea5344991400452e19da9a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -5961296796565770529, guid: 0753b75270ea5344991400452e19da9a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -5961296796565770529, guid: 0753b75270ea5344991400452e19da9a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -5961296796565770529, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
@@ -2094,6 +2110,10 @@ PrefabInstance:
     - target: {fileID: -5961296796565770529, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5961296796565770529, guid: 0753b75270ea5344991400452e19da9a, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -1808073139948031543, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       propertyPath: m_TagString
@@ -2133,7 +2153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7036213049465896255, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       propertyPath: m_TagString
-      value: Armature
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8464117508989075729, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       propertyPath: m_TagString
@@ -2145,15 +2165,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8879528566716807029, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8879528566716807029, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8879528566716807029, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8879528566716807029, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -2232,7 +2252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
-  _forwardElement: {fileID: 7338144316924809443}
+  _forwardElement: {fileID: 0}
   _oneGrabTransformer: {fileID: 0}
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 8478453052584291287}

@@ -1,0 +1,11 @@
+{
+    "asset": "82bf8acf7c540cf4c818e20ff2165827",
+    "fileName": "019aa2b1-2be7-77a9-ae24-b922b22bc283_Preview.png",
+    "prompt": "Transparent material for Ground Space game object that allows visibility through it while retaining its collider properties to prevent objects from falling.",
+    "negativePrompt": "",
+    "model": "44ec3749-963a-44b1-aa54-dc19f6ed8ab2",
+    "modelName": "Unity Texture2D",
+    "customSeed": 1688859396,
+    "w3CTraceId": "f161c220f9ce26842079319481d7b169",
+    "refinementMode": "Generation"
+}
