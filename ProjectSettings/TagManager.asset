@@ -30,6 +30,7 @@ TagManager:
   - QDSUIToggleCheckboxRadio
   - Grabbable
   - Armature
+  - NPC
   layers:
   - Default
   - TransparentFX
