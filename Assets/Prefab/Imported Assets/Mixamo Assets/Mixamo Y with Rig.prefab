@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.715
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
       propertyPath: m_LocalPosition.z
@@ -50,18 +50,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
       propertyPath: m_Name
-      value: character
+      value: Mixamo Y with Rig
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4300278271045085642}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5886187760677100840}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3048986599155230417}
     - targetCorrespondingSourceObject: {fileID: 1082271958561512970, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4761327375466872330}
     - targetCorrespondingSourceObject: {fileID: 1082271958561512970, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7877823781781417483}
+    - targetCorrespondingSourceObject: {fileID: 1082271958561512970, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8185176769966589344}
     - targetCorrespondingSourceObject: {fileID: 3135921509060577837, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7739489847730256267}
@@ -252,6 +264,11 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!4 &1391831247358088786 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
+  m_PrefabInstance: {fileID: 1502652343457165753}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1640818948670059519 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9070493210130169274, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
@@ -353,6 +370,81 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!1 &1737007961489870056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
+  m_PrefabInstance: {fileID: 1502652343457165753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4300278271045085642
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737007961489870056}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.96, y: 2.02, z: 0.46}
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!54 &5886187760677100840
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737007961489870056}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!114 &3048986599155230417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737007961489870056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.Grabbable
+  _transferOnSecondSelection: 0
+  _addNewPointsToFront: 0
+  _forwardElement: {fileID: 0}
+  _oneGrabTransformer: {fileID: 0}
+  _twoGrabTransformer: {fileID: 0}
+  _targetTransform: {fileID: 1391831247358088786}
+  _maxGrabPoints: -1
+  _rigidbody: {fileID: 5886187760677100840}
+  _kinematicWhileSelected: 1
+  _throwWhenUnselected: 1
 --- !u!1 &2008463343014178739 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1082271958561512970, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}
@@ -406,6 +498,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8185176769966589344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008463343014178739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb4a09355f9dc244bfbcd2ac9208ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 0}
+  _boundsCollider: {fileID: 0}
+  _colliders:
+  - {fileID: 4761327375466872330}
+  - {fileID: 7739489847730256267}
+  - {fileID: 6224925514925668058}
+  - {fileID: 7518474172983072174}
+  - {fileID: 7739319963015409055}
+  - {fileID: 8892405189372497059}
+  - {fileID: 768700477061711884}
+  - {fileID: 6262992179849677340}
+  - {fileID: 944646505673984241}
+  - {fileID: 3895321197742738403}
+  - {fileID: 1194916682243666200}
 --- !u!1 &2456453586225882354 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3948933247560734027, guid: 01df059fbfc272c47945c0f9833829ac, type: 3}

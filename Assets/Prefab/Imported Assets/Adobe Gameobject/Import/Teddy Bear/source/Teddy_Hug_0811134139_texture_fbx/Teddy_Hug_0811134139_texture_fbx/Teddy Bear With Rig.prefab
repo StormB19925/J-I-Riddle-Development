@@ -1532,6 +1532,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 251219072011143621}
+  - component: {fileID: 1949915173616513718}
   m_Layer: 0
   m_Name: GrabbableTeddy
   m_TagString: Grabbable
@@ -1567,6 +1568,38 @@ Transform:
   - {fileID: 3198853278101977165}
   m_Father: {fileID: 8478453052584291287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1949915173616513718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8545093963582550967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb4a09355f9dc244bfbcd2ac9208ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 7338144316924809443}
+  _boundsCollider: {fileID: 8409113462940623950}
+  _colliders:
+  - {fileID: 9056561323739019057}
+  - {fileID: 1972631099205195298}
+  - {fileID: 8298222451572922790}
+  - {fileID: 8409113462940623950}
+  - {fileID: 7622008070315852638}
+  - {fileID: 2297976717349510771}
+  - {fileID: 560282086677502627}
+  - {fileID: 2488012730010524226}
+  - {fileID: 6137809397754359339}
+  - {fileID: 308223105709932533}
+  - {fileID: 7007247053196317991}
+  - {fileID: 6003510928007697078}
+  - {fileID: 1916468041379284429}
 --- !u!1 &8570771680918089056
 GameObject:
   m_ObjectHideFlags: 0
@@ -2136,6 +2169,10 @@ PrefabInstance:
       value: Teddy Bear With Rig
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0753b75270ea5344991400452e19da9a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       propertyPath: m_TagString
       value: Grabbable
       objectReference: {fileID: 0}
@@ -2188,13 +2225,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 36950072023024337}
+      addedObject: {fileID: 5961242939090978612}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7338144316924809443}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5019102039838657691}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0753b75270ea5344991400452e19da9a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3984435571094520972}
   m_SourcePrefab: {fileID: 100100000, guid: 0753b75270ea5344991400452e19da9a, type: 3}
 --- !u!4 &8478453052584291287 stripped
 Transform:
@@ -2206,38 +2246,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0753b75270ea5344991400452e19da9a, type: 3}
   m_PrefabInstance: {fileID: 8224484810167520316}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &36950072023024337
-MonoBehaviour:
+--- !u!65 &5961242939090978612
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9142963162221162861}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cb4a09355f9dc244bfbcd2ac9208ef7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
-  _data: {fileID: 0}
-  _pointableElement: {fileID: 7338144316924809443}
-  _boundsCollider: {fileID: 8409113462940623950}
-  _colliders:
-  - {fileID: 9056561323739019057}
-  - {fileID: 1972631099205195298}
-  - {fileID: 8298222451572922790}
-  - {fileID: 8409113462940623950}
-  - {fileID: 7622008070315852638}
-  - {fileID: 2297976717349510771}
-  - {fileID: 560282086677502627}
-  - {fileID: 2488012730010524226}
-  - {fileID: 6137809397754359339}
-  - {fileID: 308223105709932533}
-  - {fileID: 7007247053196317991}
-  - {fileID: 6003510928007697078}
-  - {fileID: 1916468041379284429}
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7338144316924809443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2287,3 +2316,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &3984435571094520972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142963162221162861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b44911b7f906604fb760bea5eb8b1da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Resettable

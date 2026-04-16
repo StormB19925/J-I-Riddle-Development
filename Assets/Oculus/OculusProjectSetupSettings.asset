@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Oculus.VR.Editor::OVRProjectSetupSettings
   boolProperties:
     keys:
-    - Meta.XR.SDK.31736735fee7ab217bea57cc359d9f23.MarkedAsFixed.Android
-    - Meta.XR.SDK.edfb6eef6866b340551639f2f2c3213d.MarkedAsFixed.Android
-    - Meta.XR.SDK.555a8939e2116242b33de093147cd755.Ignored.Android
-    - Meta.XR.SDK.31736735fee7ab217bea57cc359d9f23.MarkedAsFixed.Standalone
-    - Meta.XR.SDK.edfb6eef6866b340551639f2f2c3213d.MarkedAsFixed.Standalone
+    - Meta.XR.SDK.31736735fee7ab217bea57cc359d9f23.Ignored.Standalone
+    - Meta.XR.SDK.edfb6eef6866b340551639f2f2c3213d.Ignored.Standalone
+    - Meta.XR.SDK.31736735fee7ab217bea57cc359d9f23.Ignored.Android
+    - Meta.XR.SDK.edfb6eef6866b340551639f2f2c3213d.Ignored.Android
+    - Meta.XR.SDK.68e7a5b6cd13caa95353d8a52e3c9dba.Ignored.Android
     values: 0101010101
   intProperties:
     keys: []
