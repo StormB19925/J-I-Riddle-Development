@@ -3,17 +3,16 @@
 
 using System;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using Oculus.Interaction;
 using Oculus.Interaction.HandGrab;
 
-public class AddMetaSDKComponents : MonoBehaviour
+public class MetaSDKHandInteractionSetup : MonoBehaviour
 {
     public GameObject targetPrefab; // Assign the prefab in the Inspector
 
     public void SetupHandInteraction()
-    {
+{
         if (targetPrefab == null)
         {
             Debug.LogError("Target prefab is not assigned!");

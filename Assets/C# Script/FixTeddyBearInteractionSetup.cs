@@ -2,7 +2,6 @@
 // This was created with the help of Assistant, a Unity Artificial Intelligence product.
 
 using System;
-using UnityEditor;
 using UnityEngine;
 using Oculus.Interaction;
 using Oculus.Interaction.HandGrab;
